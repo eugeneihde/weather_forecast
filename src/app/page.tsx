@@ -39,6 +39,8 @@ const HomePage = () => {
     setProcessingLocationSearchRequest(true)
     setFetchingError(false)
     setWeatherDataLoading(true)
+    setShowEmailError(false)
+    setShowEmailSuccess(false)
   
     await axios.post(
       '/api/fetch-weather',
