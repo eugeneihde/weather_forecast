@@ -1,0 +1,94 @@
+@font-face {
+  font-family: varela-round-regular;
+  src: url('/VarelaRound-Regular.ttf');
+}
+
+.root__container {
+  padding: 1rem;
+}
+
+.main__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.weather_forecast__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.weather_forecast_detail__box {
+  background-color: white;
+  padding: 1.25rem 0.625rem;
+  border-radius: 1rem;
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.weather_forecast_detail__box:hover {
+  scale: 1.1;
+}
+
+.weather_forecast_icon_temp__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email_notify__box {
+  margin: 4rem 0;
+}
+
+.email_notify__formgroup {
+  margin-top: 1rem;
+}
+
+.location_search__formgroup {
+  margin-bottom: 1rem;
+}
+
+.forecast_header__typography {
+  margin-bottom: 3rem;
+}
+
+.back_to_homepage__button {
+  margin-top: 3rem;
+}
+
+/* Dialog */
+.weather_detail__dialogtitle {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather_detail__dialogcontent {
+  background-color: white;
+}
+
+.dialog_weather__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dialog_weather_detail__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+}
